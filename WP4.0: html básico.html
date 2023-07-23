@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <style>
+            .p_lightgray {
+                background-color: lightgray;
+            }
+            #form_1 {
+                background-color: lightblue;
+                padding: 10px;
+            }
+            label {
+                display: inline-block;
+                width: 150px;
+                line-height: 2em;
+            }
+            p {
+                line-height: 1.5em;
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body id="principal">
+        <h1>Javascript para Analistas</h1>
+        <h2>Un HTML para poder experimentar</h2>
+        <p>
+            Esto es un párrafo con texto. <a id="enlace1" href="...">Enlace ejemplo</a>
+        </p>
+        <p class="p_lightgray">
+            Esto es otro párrafo. En este caso, se incluye un class para poder probar a acceder mediante <i>getElementsByClassName</i>.
+        </p>
+        <p class="p_lightgray">
+            Esto es un párrafo adicional. Este también tiene un class.
+        </p>
+        <p>
+            Y esto es un formulario de ejemplo:
+            <form id="form_1">
+                <label for="email">Email:</label><input type="email" id="email" name="email" required> <br/>
+                <label for="studyClass">Clase que estudias:</label>
+                <select id="studyClass">
+                    <option value="web_analytics">Web analytics</option>
+                    <option value="javascript">Javascript</option>
+                    <option value="ai">Artificial Inteligence</option>
+                </select><br />
+                <label for="classLevel">Tu nivel:</label><br />
+                <input type="radio" id="level1" name="studyLevel" value="level1_principiante"><label for="level1">Principiante</label><br />
+                <input type="radio" id="level2" name="studyLevel" value="level2_intermedio"><label for="level2">Intermedio</label><br />
+                <input type="radio" id="level3" name="studyLevel" value="level3_intermedio"><label for="level3">Avanzado</label><br />
+            
+            <button type="submit">Enviar</button>
+            </form>
+            
+        </p>
+    </body>
+</html>
